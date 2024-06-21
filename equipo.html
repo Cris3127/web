@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<link rel="shortcut icon" href="img/logo_pet_care-08.png" type="immage/x-icon">
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Pet care</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); 
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #dedbd3af;
+}
+         header{
+       background-color: #80BACB;
+       background-size: cover;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+       .logo img {
+       height: 150px;
+       
+}
+       
+       nav {
+       display: flex;
+}
+
+       .nav-menu {
+       list-style: none;
+       margin: 0;
+       padding: 30px;
+       display: flex;
+}
+
+       .nav-menu li {
+       margin-left: 20px;
+}
+
+       .nav-menu a {
+       text-decoration: none;
+       color: white;
+       font-weight: bold;  
+}
+
+       .nav-menu a:hover {
+       color: #02362b;
+    }
+    .menus {
+        text-align: right;       
+}
+       .menus a{
+        padding: 40px;
+        color: #ffff;
+        font-family:"raleway";
+        font-size: 30px;
+        font-weight: 300;
+        text-decoration: none;
+        padding-bottom: 100px;
+}
+      /*footer*/
+footer {
+    background-color: #328086;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "raleway";
+}
+
+.footer-contenido div {
+    padding: 10px;
+}
+
+.footer-contenido p {
+    margin: 0;
+    font-size: 20px;
+    padding-right: 70px;
+    padding-top: 5px;
+}
+
+
+.logo img {
+    max-width: 250px;
+    height: auto;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ebebeb;
+    margin-top: 20px;
+    font-family: "raleway";
+    font-size: 17px;
+}
+.tres{
+       color: #fff;
+}
+.parrafo-2{
+       font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+    .footer-contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contenido div {
+        text-align: center;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+}    
+@keyframes ani-1 {
+    0% {opacity: 0;transform: translateX(-450px);}
+    50% { opacity: 0; }
+    65% { opacity: 1; }
+    85% { opacity: 1; }
+    100% { opacity: 1; }
+} 
+.cuadro1{
+       position: relative;
+       margin-bottom: 10px;
+       position: absolute;
+       bottom: 500px;
+       left: 35%;
+       width: 260px;
+
+    }
+.cuadro1 h1{
+    padding: 0%;
+    margin: 0%;
+    bottom: 1000px;
+    width: 1000px;
+    font-family: "poppins";
+    color: #fff;
+    background-color: #bab367;
+    border-radius: 70px;
+    width: 600px;
+    text-align: center;
+    font-size: 70px;
+    animation: ani-1 1.5s  ease-in-out 1 forwards;
+}  
+/*figuras*/
+.cuadros-1{
+       position: relative;
+       margin-bottom: 10px;
+       position: absolute;
+       bottom: 500px;
+       left: 17%;
+       width: 260px;
+}
+.cuadros-1{
+    padding: 0%;
+    margin: 0%;
+    width: 1000px;
+    font-family: "poppins";
+    color: #fff;
+    border-radius: 70px;
+    width: 600px;
+    text-align: center;
+    font-size: 70px;
+    top: 600px;
+    animation: cuadros 2s ease-out forwards;
+}
+@keyframes cuadros {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+    </style>
+    </head>
+<body>
+        <header>
+            <div class="logo">
+               <a href="home.html"><img src="img/logo_pet_care-08.png" alt="logo"></a>
+            </div>
+                <div class="menus">
+     </nav>
+             <ul class="nav-menu">
+                 <li><a href="home.html">Home</a></li>
+                 <li><a href="servicios.html">Servicios</a></li>
+                 <li><a href="equipo.html">Equipo</a></li>
+                 <li><a href="contacto.html">Contacto</a></li>
+                 <li><a href="testimonios.html">Testimonios</a></li>
+             </ul>
+     </nav>
+              </div>
+        </header>
+
+        <div class="cuadros">
+            <img src="img/home_3-10.jpg" width="100%" height="auto">
+        </div>
+
+        <div class="cuadro1">
+            <h1 class="ani-1">Equipo médico</h1>
+            </div>
+
+            <div class="cuadros-1">
+                <img src="img/doctoresdos-10.png" width="1300px" height="auto">
+            </div>
+
+        <div class="footer">
+
+              <footer>
+                     <div class="footer-contenido">
+                         <div class="info-izquierda">
+                             <p>Queremos darte información de valor:<br>
+                             Síguenos en nuestras redes sociales y revisa nuestro contenido fresco y de utilidad para ti y tu mascota.<br><br>
+                             <strong>Pide tu cita únicamente por WhatsApp.</strong></p>
+                         </div>
+                         <div class="info-centro">
+                            <a class="tres" href="contacto.html"><h3>CONTACTO</h3><br></a>
+                             <p class="parrafo-2">(+57) 350 368 62 95<br><br>
+                             petcareoficial@gmail.com</p>
+                         </div>
+                         <div class="logo">
+
+                           <a href="home.html">                    
+                           <img src="img/logo_pet_care-08.png" alt="Logo de PetCare"></a>
+
+                         </div>
+                     </div>
+                     <div class="footer-bottom">
+                         <p>© 2024 PetCare - Todos los derechos reservados. Sitio creado por “Cristobal Martinez”</p>
+                     </div>
+              </div>
+       </footer>
+
+</body>
+</html>
